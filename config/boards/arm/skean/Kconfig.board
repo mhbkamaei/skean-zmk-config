@@ -8,7 +8,7 @@ config BOARD_SKEAN_LEFT
 	depends on SOC_NRF52832_QFAA
 
 config BUILD_OUTPUT_UF2_FAMILY_ID
-    default "0x72721d4e"
+    default "0x72721d4e" if SOC_NRF52832_QFAA
 
 config BOARD_SKEAN_RIGHT
 	bool "skean_right"
