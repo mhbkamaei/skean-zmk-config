@@ -5,8 +5,8 @@
 
 config BOARD_SKEAN_LEFT
 	bool "skean_left"
-	depends on SOC_NRF52833_QIAA
+	depends on SOC_NRF52833_QFAA
 
 config BOARD_SKEAN_RIGHT
 	bool "skean_right"
-	depends on SOC_NRF52833_QIAA
+	depends on SOC_NRF52833_QFAA
