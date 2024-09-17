@@ -7,7 +7,6 @@ arch: arm
 features:
   - keys
 outputs:
-  - usb
   - ble
 siblings:
   - skean_left

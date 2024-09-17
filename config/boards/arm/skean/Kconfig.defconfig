@@ -25,11 +25,4 @@ config ZMK_SPLIT
 config BT_CTLR
 	default BT
 
-if USB_DEVICE_STACK
-
-config USB_NRFX
-	default y
-
-endif # USB_DEVICE_STACK
-
 endif # BOARD_SKEAN_LEFT || BOARD_SKEAN_RIGHT

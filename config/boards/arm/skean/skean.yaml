@@ -9,7 +9,6 @@ toolchain:
   - xtools
 supported:
   - adc
-  - usb_device
   - ble
   - ieee802154
   - pwm
