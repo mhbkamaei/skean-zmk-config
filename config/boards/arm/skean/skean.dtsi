@@ -18,7 +18,6 @@
     zephyr,flash = &flash0;
     zmk,kscan = &kscan0;
     zmk,battery = &vbatt;
-    zephyr,console = &cdc_acm_uart;
     zmk,matrix_transform = &default_transform;
   };
 
